@@ -206,7 +206,7 @@ local render = function(image)
       absolute_x = win_info.wincol + win_info.textoff + original_x - 1 -- fking 1 indexing
     else
       absolute_x = screen_pos.col
-      absolute_y = screen_pos.row
+      absolute_y = screen_pos.row + 1
     end
   end
 
